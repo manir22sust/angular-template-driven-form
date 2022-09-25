@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/angular-template-driven-form'),
+      dir: require('path').join(__dirname, './coverage/angular-reactive-forms'),
       subdir: '.',
       reporters: [
         { type: 'html' },
